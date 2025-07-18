@@ -1,31 +1,25 @@
-School ERP System (Demo)
+### 🏫 School ERP System (Demo)
 
 A demo ERP system built in Laravel showcasing core modules for school management including admissions, fee collection, student records, and reporting.
 
-🚀 Features
+### 🚀 Features
 
-Admission module with student profile and document uploads
+* Admission module with student profile and document uploads
+* Fee management with tax calculation, receipt printing, and transaction history
+* Timetable and subject management
+* Role-based access for Admin, Teachers, and Students
+* Dynamic reporting dashboard with charts and export options
 
-Fee management with tax calculation, receipt printing, and transaction history
+### 🛠️ Tech Stack
 
-Timetable and subject management
+* Laravel 10
+* MySQL
+* Blade, jQuery, AJAX
+* Bootstrap 5
 
-Role-based access for Admin, Teachers, and Students
+### 📂 Folder Structure
 
-Dynamic reporting dashboard with charts and export options
-
-🛠️ Tech Stack
-
-Laravel 10
-
-MySQL
-
-Blade, jQuery, AJAX
-
-Bootstrap 5
-
-📂 Folder Structure
-
+```
 ├── app
 ├── database
 ├── public
@@ -33,15 +27,18 @@ Bootstrap 5
 │   └── views
 ├── routes
 └── .env.example
+```
 
-🔧 How to Use
+### 🔧 How to Use
 
-Clone the repo
+1. Clone the repo
+2. Copy `.env.example` to `.env`
+3. Configure DB credentials
+4. Run `php artisan migrate --seed`
+5. Start server: `php artisan serve`
 
-Copy .env.example to .env
+---
 
-Configure DB credentials
+### 📢 Note
 
-Run php artisan migrate --seed
-
-Start server: php artisan serve
+These projects are demo versions designed to reflect real-world experience without exposing client IP. Codebases include realistic flows, structure, and placeholder integrations for portfolios or evaluations.
